@@ -17,22 +17,22 @@
           <div class="row">
             <div class="col-lg-12">
               <div class="card mb-12 shadow-sm">
-                <a href="/{{{post.image}}}">
-                    <img class="img-fluid" src="{{post.image}}" alt="{{post.title}}" class="card-img-top">
+                <a href="{{page.image}}">
+                    <img class="img-fluid" src="{{page.image}}" alt="{{page.title}}" class="card-img-top">
                 </a>            
                 <div class="card-body">
                   <div class="title">
-                    <p class="title">{{post.title}}</p>
-                    <small class="text-muted">{{post.date  | date_to_string}}</small>
+                    <p class="title">{{page.title}}</p>
+                    <small class="text-muted">{{pagev.date  | date_to_string}}</small>
                   </div>
-                  <p class="card-text">{{% if post.author %}}by <a href="//twitter.com/{{post.author}}">@{{post.author}}</a>, {{% endif %}}</p>
+                  <p class="card-text">{{% if page.author %}}by <a href="//twitter.com/{{page.author}}">@{{page.author}}</a>, {{% endif %}}</p>
 			
-                  {{% if post.product %}}
-                  <a class="icon" href="//{{post.product}}" target="_blank" onclick="trackOutboundLink('//{{post.product}}'); return false;"><i class="material-icons md-24">web</i></a>
+                  {{% if page.product %}}
+                  <a class="icon" href="//{{page.product}}" target="_blank" onclick="trackOutboundLink('//{{page.product}}'); return false;"><i class="material-icons md-24">web</i></a>
                   {{% endif %}}
 			
-                  {{% if post.video %}}
-                  <a class="icon" href="//{{post.video}}" target="_blank" onclick="trackOutboundLink('//{{post.video}}'); return false;"><i class="material-icons md-24">play_circle_filled</i></a>
+                  {{% if page.video %}}
+                  <a class="icon" href="//{{page.video}}" target="_blank" onclick="trackOutboundLink('//{{page.video}}'); return false;"><i class="material-icons md-24">play_circle_filled</i></a>
                   {{% endif %}}
                 </div>
               </div>
