@@ -23,7 +23,7 @@
                 <div class="card-body">
                   <div class="title">
                     <p class="title">{{post.title}}</p>
-                    <small class="text-muted">{{post.date}}</small>
+                    <small class="text-muted">{{post.date  | date_to_string}}</small>
                   </div>
                   <p class="card-text">{{#post.author}}by <a href="//twitter.com/{{post.author}}">@{{post.author}}</a>, {{/post.author}}</p>
 
