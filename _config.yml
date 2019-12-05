@@ -1,2 +1,3 @@
 name: "Jerry Hargrove - Cloud Diagrams & Notes"
 markdown: kramdown
+permalink: /posts/:title
