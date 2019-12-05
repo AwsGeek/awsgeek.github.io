@@ -25,14 +25,15 @@
                     <p class="title">{{post.title}}</p>
                     <small class="text-muted">{{post.date  | date_to_string}}</small>
                   </div>
-                  <p class="card-text">{{#post.author}}by <a href="//twitter.com/{{post.author}}">@{{post.author}}</a>, {{/post.author}}</p>
-
-                  {{#post.product}}
+                  <p class="card-text">{{% if post.author %}}by <a href="//twitter.com/{{post.author}}">@{{post.author}}</a>, {{% endif %}}</p>
+			
+                  {{% if post.product %}}
                   <a class="icon" href="//{{post.product}}" target="_blank" onclick="trackOutboundLink('//{{post.product}}'); return false;"><i class="material-icons md-24">web</i></a>
-                  {{/post.product}}
-                  {{#post.video}}
+                  {{% endif %}}
+			
+                  {{% if post.video %}}
                   <a class="icon" href="//{{post.video}}" target="_blank" onclick="trackOutboundLink('//{{post.video}}'); return false;"><i class="material-icons md-24">play_circle_filled</i></a>
-                  {{/post.video}}
+                  {{% endif %}}
                 </div>
               </div>
             </div>
