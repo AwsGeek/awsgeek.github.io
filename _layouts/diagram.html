@@ -18,12 +18,12 @@
             <div class="col-lg-12">
               <div class="card mb-12 shadow-sm">
                 <a href="/{{{post.image}}}">
-                    <img class="img-fluid" src="/{{{post.image}}}" alt="{{post.title}}" class="card-img-top">
+                    <img class="img-fluid" src="{{post.image}}" alt="{{post.title}}" class="card-img-top">
                 </a>            
                 <div class="card-body">
                   <div class="title">
                     <p class="title">{{post.title}}</p>
-                    <small class="text-muted">{{post.created}}</small>
+                    <small class="text-muted">{{post.date}}</small>
                   </div>
                   <p class="card-text">{{#post.author}}by <a href="//twitter.com/{{post.author}}">@{{post.author}}</a>, {{/post.author}}</p>
 
