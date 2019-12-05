@@ -27,14 +27,13 @@
                   </div>
                   <p class="card-text">{{% if page.author %}}by <a href="//twitter.com/{{page.author}}">@{{page.author}}</a>, {{% endif %}}</p>
 		  
-		  {{% assign product = page.product }}	
-                  {{% if product %}}
+                  {% if product.page %}
                   <a class="icon" href="//{{page.product}}" target="_blank" onclick="trackOutboundLink('{{page.product}}'); return false;"><i class="material-icons md-24">web</i></a>
-                  {{% endif %}}
+                  {% endif %}
 			
-                  {{% if page.video %}}
+                  {% if page.video %}
                   <a class="icon" href="//{{page.video}}" target="_blank" onclick="trackOutboundLink('{{page.video}}'); return false;"><i class="material-icons md-24">play_circle_filled</i></a>
-                  {{% endif %}}
+                  {% endif %}
                 </div>
               </div>
             </div>
