@@ -1,20 +1,20 @@
 <!DOCTYPE html>
-	<html>
-		<head>
-			<title>{{ page.title }}</title>
-			<!-- link to main stylesheet -->
-			<link rel="stylesheet" type="text/css" href="/css/main.css">
-		</head>
-		<body>
-			<div class="container">
+<html lang="en">
+	
+	{% include head.html %}
+	
+	<body>
 			
-			{{ content }}
+		{% include header.html %}
+
+		<main role="main">
+		
+		{{ content }}
 			
-			</div><!-- /.container -->
-			<footer>
-	    		<ul>	        		
-	        		<li><a href="https://github.com/awsgeek">github.com/awsgeek</a></li>
-				</ul>
-			</footer>
-		</body>
-	</html>
+		</main>
+
+		{% include footer.html %}
+		
+	</body>
+
+</html>
