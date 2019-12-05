@@ -1,22 +1,11 @@
 ---
 layout: default
-title: "Jerry Hargrove - Cloud Diagrams & Notes"
+title: "Cloud Diagrams & Notes"
 ---
 <!DOCTYPE html>
 <html lang="en" xml:lang="en" xmlns= "//www.w3.org/1999/xhtml">
-<head>
-  <meta name="viewport" content="width=device-width,initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta charset="utf-8">
-
-  <title>{{ page.title }}</title>
   
-  {% include analytics.html %}  
-
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <link href="//fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-      
-</head>
+{% include head.html %}  
 
 <body>
 <header>
@@ -39,7 +28,7 @@ title: "Jerry Hargrove - Cloud Diagrams & Notes"
   <div class="navbar navbar-dark bg-dark shadow-sm">
     <div class="container d-flex justify-content-between">
       <a href="#" class="navbar-brand d-flex align-items-center">
-        <strong>{{title}} | {{tagline}}</strong>
+        <strong>{{ page.title }}</strong>
       </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
