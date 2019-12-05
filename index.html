@@ -2,74 +2,28 @@
 layout: default
 title: "Cloud Diagrams & Notes"
 ---
-<!DOCTYPE html>
-<html lang="en" xml:lang="en" xmlns= "//www.w3.org/1999/xhtml">
-  
-{% include head.html %}  
 
-<body>
-<header>
-  <div class="collapse bg-dark" id="navbarHeader">
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-8 col-md-7 py-4">
-          <h4 class="text-white">About</h4>
-          <p class="text-muted">This site contains a collection of notes and illustrations about Amazon Web Services (AWS). Unless otherwise noted, all content on this site is licensed under Creative Commons <a href="https://creativecommons.org/licenses/by-sa/4.0/legalcode">CC BY-SA 4.0</a>. In effect (read the actual terms for details), this allows you to share and adapt this content so long as you provide attribution to the original author(s) and license your changes using the same terms. </p>
-        </div>
-        <div class="col-sm-4 offset-md-1 py-4">
-          <h4 class="text-white">Contact</h4>
-          <ul class="list-unstyled">
-            <li><a href="https://twitter.com/awsgeek" class="twitter-follow-button" data-size="large" data-show-count="false">Follow @awsgeek</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="navbar navbar-dark bg-dark shadow-sm">
-    <div class="container d-flex justify-content-between">
-      <a href="#" class="navbar-brand d-flex align-items-center">
-        <strong>{{ page.title }}</strong>
-      </a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-    </div>
-  </div>
-</header>
+<div class="album py-5 bg-light">
+  <div class="container">
 
+    <div class="row">
 
-<main role="main">
-
-  <div class="album py-5 bg-light">
-    <div class="container">
-
-      <div class="row">
-      
-  {% for post in site.posts %}
-        <div class="col-md-3">
-          <div class="card mb-3 shadow-sm">
-            <a href="{{ post.url }}">
-                <img src="/{{{post.small}}}" alt="{{post.title}}" class="card-img-top">
-            </a>            
-            <div class="card-body">
-              <div class="title">
-                <p class="title">{{post.title}}</p>
-                <small class="text-muted">{{post.date | date_to_string}}</small>
-              </div>
+{% for post in site.posts %}
+      <div class="col-md-3">
+        <div class="card mb-3 shadow-sm">
+          <a href="{{ post.url }}">
+              <img src="/{{{post.small}}}" alt="{{post.title}}" class="card-img-top">
+          </a>            
+          <div class="card-body">
+            <div class="title">
+              <p class="title">{{post.title}}</p>
+              <small class="text-muted">{{post.date | date_to_string}}</small>
             </div>
           </div>
         </div>
-  {% endfor %}
-
       </div>
+{% endfor %}
+
     </div>
   </div>
-</main>
-    
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-    
-</body>
-</html>
-
+</div>
