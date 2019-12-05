@@ -4,6 +4,6 @@ title: "Amazon EventBridge"
 image: asdfasdf
 thumbnail: asdf
 author: awsgeek
-product: http://aws.amazon.com/eventbridge/
+product: images/amazon-eventbridge_en.jpg/
 date: 2019-12-02
 ---
