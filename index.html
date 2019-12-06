@@ -21,6 +21,14 @@ title: "Cloud Diagrams & Notes"
               <p class="title">{{post.title}}</p>
               <small class="text-muted">{{post.date | date_to_string}}</small>
             </div>
+            {% if post.layout == "event" %}
+            <a href="{{ post.url  | relative_url}}"><i class="material-icons md-24">folder</i></a>
+            {% endif %}
+
+            {% if post.video %}
+            <a class="icon" href="//{{post.video}}" target="_blank" onclick="trackOutboundLink('{{post.video}}'); return false;"><i class="material-icons md-24">videocam</i></a>
+            {% endif %}
+
           </div>
         </div>
       </div>

@@ -20,10 +20,13 @@ layout: default
                 <img src="{{post.thumbnail | relative_url}}" alt="{{post.title}}" class="card-img-top">
             </a>            
             <div class="card-body">
-            <div class="title">
-                <p class="title">{{post.event}}</p>
-                <p><small class="text-muted">{{post.date | date_to_string}}</small></p>
-            </div>
+                <div class="title">
+                    <p class="title">{{post.event}}</p>
+                    <p><small class="text-muted">{{post.date | date_to_string}}</small></p>
+                </div>
+                {% if post.video %}
+                <a class="icon" href="//{{post.video}}" target="_blank" onclick="trackOutboundLink('{{post.video}}'); return false;"><i class="material-icons md-24">videocam</i></a>
+                {% endif %}    
             </div>
         </div>
         </div>
