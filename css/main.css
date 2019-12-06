@@ -37,3 +37,7 @@ a.icon:hover {
   bottom: -.35rem;
   font-size: 2.5em;
 }
+
+.material-icons.red { color: red; }
+.material-icons.green { color: green; }
+.material-icons.blue { color: blue; }
