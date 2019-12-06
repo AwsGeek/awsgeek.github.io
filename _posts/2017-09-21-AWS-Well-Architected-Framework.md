@@ -1,6 +1,6 @@
 ---
 layout : illustration
-title : AWS Well Architected Framework
+title : "AWS Well Architected Framework"
 author : awsgeek
 published : true
 date : 2017-09-21

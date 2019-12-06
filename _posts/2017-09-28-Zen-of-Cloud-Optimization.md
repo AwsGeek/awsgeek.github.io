@@ -1,6 +1,6 @@
 ---
 layout : illustration
-title : Zen of Cloud Optimization
+title : "Zen of Cloud Optimization"
 author : awsgeek
 published : true
 date : 2017-09-28

@@ -1,6 +1,6 @@
 ---
 layout : diagram
-title : Amazon Athena
+title : "Amazon Athena"
 author : awsgeek
 published : true
 date : 2017-10-10

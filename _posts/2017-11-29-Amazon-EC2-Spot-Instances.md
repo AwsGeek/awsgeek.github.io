@@ -1,6 +1,6 @@
 ---
 layout : diagram
-title : Amazon EC2 Spot Instances
+title : "Amazon EC2 Spot Instances"
 author : awsgeek
 published : true
 date : 2017-11-29

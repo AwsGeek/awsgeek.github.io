@@ -1,6 +1,6 @@
 ---
 layout : diagram
-title : Amazon RDS
+title : "Amazon RDS"
 author : awsgeek
 published : true
 date : 2018-09-18

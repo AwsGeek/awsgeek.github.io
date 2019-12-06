@@ -1,6 +1,6 @@
 ---
 layout : diagram
-title : Amazon Machine Learning
+title : "Amazon Machine Learning"
 author : awsgeek
 published : true
 date : 2017-09-22

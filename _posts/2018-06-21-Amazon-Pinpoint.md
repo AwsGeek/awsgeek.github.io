@@ -1,6 +1,6 @@
 ---
 layout : diagram
-title : Amazon Pinpoint
+title : "Amazon Pinpoint"
 author : awsgeek
 published : true
 date : 2018-06-21

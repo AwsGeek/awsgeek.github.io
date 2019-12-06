@@ -1,6 +1,6 @@
 ---
 layout : diagram
-title : Amazon ElastiCache
+title : "Amazon ElastiCache"
 author : awsgeek
 published : true
 date : 2018-09-24
