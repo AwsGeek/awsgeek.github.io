@@ -8,5 +8,5 @@ image : images/AWS-Storage-Gateway_en.jpg
 thumbnail : images/AWS-Storage-Gateway-thumbnail_en.jpg
 tags : [AWS,StorageGateway,VisualNotes]
 description : "My visual notes on AWS Storage Gateway, enables seamless use of AWS cloud storage by your on-premises applications"
-product : https://aws.amazon.com/storagegateway/
+product : aws.amazon.com/storagegateway/
 ---

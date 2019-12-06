@@ -8,5 +8,5 @@ image : images/Amazon-Cognito_en.jpg
 thumbnail : images/Amazon-Cognito-thumbnail_en.jpg
 tags : [AWS,Cognito,MFA,Security]
 description : "Amazon Cognito makes it fast and easy to add sign-up, sign-in & access control to your web & mobile apps"
-product : https://aws.amazon.com/cognito/
+product : aws.amazon.com/cognito/
 ---

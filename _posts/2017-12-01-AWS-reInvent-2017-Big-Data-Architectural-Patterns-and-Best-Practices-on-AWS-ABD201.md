@@ -9,5 +9,5 @@ thumbnail : images/AWS-reInvent-2017-Big-Data-Architectural-Patterns-and-Best-Pr
 tags : [AWS,reInvent,ABD201,BigData,VisualNotes]
 description : "My visual notes from AWS re:Invent 2017: Big Data Architectural Patterns and Best Practices on AWS"
 video : www.youtube.com/watch?v=a3713oGB6Zk
-product : https://aws.amazon.com/big-data/
+product : aws.amazon.com/big-data/
 ---

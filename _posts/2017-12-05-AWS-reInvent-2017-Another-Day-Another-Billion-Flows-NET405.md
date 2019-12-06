@@ -9,5 +9,5 @@ thumbnail : images/AWS-reInvent-2017-Another-Day-Another-Billion-Flows-NET405-th
 tags : [AWS,reInvent,NET405,VPC,Network,VisualNotes]
 description : "My visual notes from AWS re:Invent 2017: Another Day, Another Billion Flows"
 video : www.youtube.com/watch?v=8gc2DgBqo9U
-product : https://aws.amazon.com/vpc/
+product : aws.amazon.com/vpc/
 ---

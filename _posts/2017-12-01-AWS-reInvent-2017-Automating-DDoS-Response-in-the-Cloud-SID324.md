@@ -9,5 +9,5 @@ thumbnail : images/AWS-reInvent-2017-Automating-DDoS-Response-in-the-Cloud-SID32
 tags : [AWS,reInvent,SID324,Security,Sheild,WAF,Lambda,VisualNotes]
 description : "My visual notes from AWS re:Invent 2017: Automating DDoS Response in the Cloud"
 video : www.youtube.com/watch?v=6pQ3j4IcpY8
-product : https://aws.amazon.com/security/
+product : aws.amazon.com/security/
 ---

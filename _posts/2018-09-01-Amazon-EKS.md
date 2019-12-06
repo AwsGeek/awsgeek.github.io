@@ -8,5 +8,5 @@ image : images/Amazon-EKS_en.jpg
 thumbnail : images/Amazon-EKS-thumbnail_en.jpg
 tags : [AWS,EKS,Kubernetes,K8s,VisualNotes]
 description : "My visual notes on Amazon Elastic Container Service for Kubernetes (EKS), scalable container management for your Kubernetes clusters"
-product : https://aws.amazon.com/eks/
+product : aws.amazon.com/eks/
 ---

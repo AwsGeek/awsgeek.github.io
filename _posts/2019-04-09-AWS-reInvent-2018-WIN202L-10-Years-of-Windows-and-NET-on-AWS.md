@@ -9,5 +9,5 @@ thumbnail : images/AWS-reInvent-2018-WIN202L-10-Years-of-Windows-and-NET-on-AWS-
 tags : [AWS,reInvent,WIN202L,Windows,DotNet]
 description : "My visual notes from AWS re:Invent 2018: 10 Years of Windows and .Net on AWS"
 video : youtu.be/bHnboUsGzz4
-product : https://aws.amazon.com/windows/
+product : aws.amazon.com/windows/
 ---

@@ -8,5 +8,5 @@ image : images/Amazon-EFS_en.jpg
 thumbnail : images/Amazon-EFS-thumbnail_en.jpg
 tags : [AWS,EFS,VisualNotes]
 description : "My visual notes on Amazon EFS, a secure, scalable cloud file system for your Linux applications "
-product : https://aws.amazon.com/efs/
+product : aws.amazon.com/efs/
 ---

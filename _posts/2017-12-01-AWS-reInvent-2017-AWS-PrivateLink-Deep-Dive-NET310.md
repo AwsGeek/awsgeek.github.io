@@ -9,5 +9,5 @@ thumbnail : images/AWS-reInvent-2017-AWS-PrivateLink-Deep-Dive-NET310-thumbnail_
 tags : [AWS,reInvent,NET310,PrivateLink,VisualNotes]
 description : "My visual notes from AWS re:Invent 2017: AWS PrivateLink Deep Dive"
 video : www.youtube.com/watch?v=8WhLO4y5-J0
-product : https://aws.amazon.com/privatelink/
+product : aws.amazon.com/privatelink/
 ---

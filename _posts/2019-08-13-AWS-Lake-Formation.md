@@ -8,5 +8,5 @@ image : images/AWS-Lake-Formation_en.jpg
 thumbnail : images/AWS-Lake-Formation-thumbnail_en.jpg
 tags : [AWS,DataLake,BigData,LakeFormation,VisualNotes]
 description : "My visual notes on AWS Lake Formation, providing centralized config, management & security for your data lakes"
-product : https://aws.amazon.com/lake-formation/
+product : aws.amazon.com/lake-formation/
 ---

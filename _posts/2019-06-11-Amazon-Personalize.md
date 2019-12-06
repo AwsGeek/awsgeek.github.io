@@ -8,5 +8,5 @@ image : images/Amazon-Personalize_en.jpg
 thumbnail : images/Amazon-Personalize-thumbnail_en.jpg
 tags : [AWS,Personalize,Recommendations,MachineLearning,VisualNotes]
 description : "My visual notes on Amazon Personalize, enabling you to provide real-time recommendations and personalization to your customers"
-product : https://aws.amazon.com/personalize/
+product : aws.amazon.com/personalize/
 ---
