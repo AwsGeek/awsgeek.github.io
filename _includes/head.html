@@ -5,11 +5,19 @@
 
   <title>Jerry Hargrove - {{ page.title }}</title>
 
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <meta name="description" content="{{page.description}}"/>
+  <link rel="canonical" href="{{site.url}}{{{page.url}}}"/>
+
+  <link rel="stylesheet" href="//stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
   <link href="//fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   
   <link href="//fonts.googleapis.com/css?family=Open+Sans:400" rel="stylesheet">
   <link href="/css/main.css" rel="stylesheet">
 
-  {% include analytics.html %}	  
+{% include twitter.html %}
+
+{% include opengraph.html %}
+
+{% include analytics.html %}
+
 </head>

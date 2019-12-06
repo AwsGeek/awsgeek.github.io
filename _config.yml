@@ -1,6 +1,8 @@
 name: "Jerry Hargrove - Cloud Diagrams & Notes"
+twitter: awsgeek
 markdown: kramdown
 permalink: /posts/:title/index.html
+url: https://www.awsgeek.com
 
 plugins:
   - jekyll-seo-tag
