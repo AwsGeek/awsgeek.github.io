@@ -3,6 +3,6 @@ layout : diagram
 title : Amazon WorkLink
 author : awsgeek
 date : 2019-02-28
-image : images/amazon-worklink_en.jpg
-thumbnail : images/amazon-worklink_en.jpg
+image : images/Amazon-WorkLink_en.jpg
+thumbnail : images/Amazon-WorkLink_en.jpg
 ---

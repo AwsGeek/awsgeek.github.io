@@ -1,9 +1,0 @@
----
-layout: diagram
-title: "Amazon EventBridge"
-image: images/amazon-eventbridge_en.jpg
-thumbnail: images/amazon-eventbridge_en.jpg
-author: awsgeek
-product: https://aws.amazon.com/eventbridge/
-date: 2019-12-02
----
