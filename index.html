@@ -9,6 +9,8 @@ title: "Cloud Diagrams & Notes"
     <div class="row">
 
 {% for post in site.posts %}
+      {% if post.type != "note" %}
+      
       <div class="col-md-3">
         <div class="card mb-3 shadow-sm">
           <a href="{{ post.url }}">
@@ -22,6 +24,8 @@ title: "Cloud Diagrams & Notes"
           </div>
         </div>
       </div>
+      
+      {% endif %}
 {% endfor %}
 
     </div>
