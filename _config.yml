@@ -1,6 +1,6 @@
 name: "Jerry Hargrove - Cloud Diagrams & Notes"
 markdown: kramdown
-permalink: /posts/:title.html
+permalink: /posts/:title/index.html
 
 plugins:
   - jekyll-seo-tag
