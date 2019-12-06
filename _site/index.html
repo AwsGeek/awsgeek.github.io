@@ -1,1 +1,1095 @@
-Empty
+<!DOCTYPE html>
+<html lang="en">
+	
+	<head>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta charset="utf-8">
+
+  <title>Jerry Hargrove - Cloud Diagrams & Notes</title>
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link href="//fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  
+  <link href="//fonts.googleapis.com/css?family=Open+Sans:400" rel="stylesheet">
+  <link href="/styles.css" rel="stylesheet">
+
+	<!-- Google Analytics -->
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', "UA-106486526-1", 'auto');
+    ga('send', 'pageview');
+  </script>
+  <script>
+    /**
+    * Function that tracks a click on an outbound link in Analytics.
+    * This function takes a valid URL string as an argument, and uses that URL string
+    * as the event label. Setting the transport method to 'beacon' lets the hit be sent
+    * using 'navigator.sendBeacon' in browser that support it.
+    */
+    var trackOutboundLink = function(url) {
+       ga('send', 'event', 'outbound', 'click', url, {
+         'transport': 'beacon',
+         'hitCallback': function(){document.location = url;}
+       });
+    }
+  </script>  
+<!-- End Google Analytics -->
+	  
+</head>
+
+	
+	<body>
+			
+		<header>
+  <div class="collapse bg-dark" id="navbarHeader">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-8 col-md-7 py-4">
+          <h4 class="text-white">About</h4>
+          <p class="text-muted">This site contains a collection of notes and illustrations about Amazon Web Services (AWS). Unless otherwise noted, all content on this site is licensed under Creative Commons <a href="https://creativecommons.org/licenses/by-sa/4.0/legalcode">CC BY-SA 4.0</a>. In effect (read the actual terms for details), this allows you to share and adapt this content so long as you provide attribution to the original author(s) and license your changes using the same terms. </p>
+        </div>
+        <div class="col-sm-4 offset-md-1 py-4">
+          <h4 class="text-white">Contact</h4>
+          <ul class="list-unstyled">
+            <li><a href="https://twitter.com/awsgeek" class="twitter-follow-button" data-size="large" data-show-count="false">Follow @awsgeek</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="navbar navbar-dark bg-dark shadow-sm">
+    <div class="container d-flex justify-content-between">
+      <a href="/" class="navbar-brand d-flex align-items-center">
+        <strong>Jerry Hargrove - Cloud Diagrams & Notes</strong>
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+
+		<main role="main">
+		
+		<div class="album py-5 bg-light">
+  <div class="container">
+
+    <div class="row">
+
+
+      <div class="col-md-3">
+        <div class="card mb-3 shadow-sm">
+          <a href="/posts/amazon-eventbridge">
+              <img src="/images/amazon-eventbridge_en.jpg" alt="Amazon EventBridge" class="card-img-top">
+          </a>            
+          <div class="card-body">
+            <div class="title">
+              <p class="title">Amazon EventBridge</p>
+              <small class="text-muted">02 Dec 2019</small>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="card mb-3 shadow-sm">
+          <a href="/posts/aws-datasync">
+              <img src="/images/aws-datasync_en.jpg" alt="AWS DataSync" class="card-img-top">
+          </a>            
+          <div class="card-body">
+            <div class="title">
+              <p class="title">AWS DataSync</p>
+              <small class="text-muted">20 Nov 2019</small>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="card mb-3 shadow-sm">
+          <a href="/posts/amazon-fsx-for-windows-file-server">
+              <img src="/images/amazon-fsx-for-windows-file-server_en.jpg" alt="Amazon FSx for Windows File Server" class="card-img-top">
+          </a>            
+          <div class="card-body">
+            <div class="title">
+              <p class="title">Amazon FSx for Windows File Server</p>
+              <small class="text-muted">20 Nov 2019</small>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="card mb-3 shadow-sm">
+          <a href="/posts/amazon-cognito">
+              <img src="/images/amazon-cognito_en.jpg" alt="Amazon Cognito" class="card-img-top">
+          </a>            
+          <div class="card-body">
+            <div class="title">
+              <p class="title">Amazon Cognito</p>
+              <small class="text-muted">12 Nov 2019</small>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="card mb-3 shadow-sm">
+          <a href="/posts/aws-regions">
+              <img src="/images/aws-regions_en.jpg" alt="AWS Regions" class="card-img-top">
+          </a>            
+          <div class="card-body">
+            <div class="title">
+              <p class="title">AWS Regions</p>
+              <small class="text-muted">04 Nov 2019</small>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="card mb-3 shadow-sm">
+          <a href="/posts/amazon-rekognition">
+              <img src="/images/amazon-rekognition_en.jpg" alt="Amazon Rekognition" class="card-img-top">
+          </a>            
+          <div class="card-body">
+            <div class="title">
+              <p class="title">Amazon Rekognition</p>
+              <small class="text-muted">03 Nov 2019</small>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="card mb-3 shadow-sm">
+          <a href="/posts/aws-kms">
+              <img src="/images/aws-kms_en.jpg" alt="AWS KMS" class="card-img-top">
+          </a>            
+          <div class="card-body">
+            <div class="title">
+              <p class="title">AWS KMS</p>
+              <small class="text-muted">10 Sep 2019</small>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="card mb-3 shadow-sm">
+          <a href="/posts/amazon-managed-blockchain">
+              <img src="/images/amazon-managed-blockchain_en.jpg" alt="Amazon Managed Blockchain" class="card-img-top">
+          </a>            
+          <div class="card-body">
+            <div class="title">
+              <p class="title">Amazon Managed Blockchain</p>
+              <small class="text-muted">23 Aug 2019</small>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="card mb-3 shadow-sm">
+          <a href="/posts/aws-lake-formation">
+              <img src="/images/aws-lake-formation_en.jpg" alt="AWS Lake Formation" class="card-img-top">
+          </a>            
+          <div class="card-body">
+            <div class="title">
+              <p class="title">AWS Lake Formation</p>
+              <small class="text-muted">13 Aug 2019</small>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="card mb-3 shadow-sm">
+          <a href="/posts/amazon-emr">
+              <img src="/images/amazon-emr_en.jpg" alt="Amazon EMR" class="card-img-top">
+          </a>            
+          <div class="card-body">
+            <div class="title">
+              <p class="title">Amazon EMR</p>
+              <small class="text-muted">07 Aug 2019</small>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="card mb-3 shadow-sm">
+          <a href="/posts/amazon-transcribe">
+              <img src="/images/amazon-transcribe_en.jpg" alt="Amazon Transcribe" class="card-img-top">
+          </a>            
+          <div class="card-body">
+            <div class="title">
+              <p class="title">Amazon Transcribe</p>
+              <small class="text-muted">31 Jul 2019</small>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="card mb-3 shadow-sm">
+          <a href="/posts/amazon-guardduty">
+              <img src="/images/amazon-guardduty_en.jpg" alt="Amazon GuardDuty" class="card-img-top">
+          </a>            
+          <div class="card-body">
+            <div class="title">
+              <p class="title">Amazon GuardDuty</p>
+              <small class="text-muted">30 Jul 2019</small>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="card mb-3 shadow-sm">
+          <a href="/posts/aws-icons">
+              <img src="/images/aws-icons_en.jpg" alt="AWS Icons" class="card-img-top">
+          </a>            
+          <div class="card-body">
+            <div class="title">
+              <p class="title">AWS Icons</p>
+              <small class="text-muted">26 Jul 2019</small>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="card mb-3 shadow-sm">
+          <a href="/posts/amazon-eventbridge">
+              <img src="/images/amazon-eventbridge_en.jpg" alt="Amazon EventBridge" class="card-img-top">
+          </a>            
+          <div class="card-body">
+            <div class="title">
+              <p class="title">Amazon EventBridge</p>
+              <small class="text-muted">17 Jul 2019</small>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="card mb-3 shadow-sm">
+          <a href="/posts/amazon-personalize">
+              <img src="/images/amazon-personalize_en.jpg" alt="Amazon Personalize" class="card-img-top">
+          </a>            
+          <div class="card-body">
+            <div class="title">
+              <p class="title">Amazon Personalize</p>
+              <small class="text-muted">11 Jun 2019</small>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="card mb-3 shadow-sm">
+          <a href="/posts/amazon-textract">
+              <img src="/images/amazon-textract_en.jpg" alt="Amazon Textract" class="card-img-top">
+          </a>            
+          <div class="card-body">
+            <div class="title">
+              <p class="title">Amazon Textract</p>
+              <small class="text-muted">03 Jun 2019</small>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="card mb-3 shadow-sm">
+          <a href="/posts/aws-ground-station">
+              <img src="/images/aws-ground-station_en.jpg" alt="AWS Ground Station" class="card-img-top">
+          </a>            
+          <div class="card-body">
+            <div class="title">
+              <p class="title">AWS Ground Station</p>
+              <small class="text-muted">30 May 2019</small>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="card mb-3 shadow-sm">
+          <a href="/posts/aws-purpose-built-databases">
+              <img src="/images/aws-purpose-built-databases_en.jpg" alt="AWS Purpose Built Databases" class="card-img-top">
+          </a>            
+          <div class="card-body">
+            <div class="title">
+              <p class="title">AWS Purpose Built Databases</p>
+              <small class="text-muted">03 May 2019</small>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="card mb-3 shadow-sm">
+          <a href="/posts/amazon-efs">
+              <img src="/images/amazon-efs_en.jpg" alt="Amazon EFS" class="card-img-top">
+          </a>            
+          <div class="card-body">
+            <div class="title">
+              <p class="title">Amazon EFS</p>
+              <small class="text-muted">12 Apr 2019</small>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="card mb-3 shadow-sm">
+          <a href="/posts/aws-reinvent-2018-win202l-10-years-of-windows-and-net-on-aws">
+              <img src="/images/aws-reinvent-2018-win202l-10-years-of-windows-and-net-on-aws_en.jpg" alt="AWS reInvent 2018 WIN202L 10 Years of Windows and NET on AWS" class="card-img-top">
+          </a>            
+          <div class="card-body">
+            <div class="title">
+              <p class="title">AWS reInvent 2018 WIN202L 10 Years of Windows and NET on AWS</p>
+              <small class="text-muted">09 Apr 2019</small>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="card mb-3 shadow-sm">
+          <a href="/posts/aws-app-mesh">
+              <img src="/images/aws-app-mesh_en.jpg" alt="AWS App Mesh" class="card-img-top">
+          </a>            
+          <div class="card-body">
+            <div class="title">
+              <p class="title">AWS App Mesh</p>
+              <small class="text-muted">27 Mar 2019</small>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="card mb-3 shadow-sm">
+          <a href="/posts/amazon-sns">
+              <img src="/images/amazon-sns_en.jpg" alt="Amazon SNS" class="card-img-top">
+          </a>            
+          <div class="card-body">
+            <div class="title">
+              <p class="title">Amazon SNS</p>
+              <small class="text-muted">21 Mar 2019</small>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="card mb-3 shadow-sm">
+          <a href="/posts/aws-reinvent-2018-arc337-closing-loops-and-opening-minds">
+              <img src="/images/aws-reinvent-2018-arc337-closing-loops-and-opening-minds_en.jpg" alt="AWS reInvent 2018 ARC337 Closing Loops and Opening Minds" class="card-img-top">
+          </a>            
+          <div class="card-body">
+            <div class="title">
+              <p class="title">AWS reInvent 2018 ARC337 Closing Loops and Opening Minds</p>
+              <small class="text-muted">07 Mar 2019</small>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="card mb-3 shadow-sm">
+          <a href="/posts/amazon-worklink">
+              <img src="/images/amazon-worklink_en.jpg" alt="Amazon WorkLink" class="card-img-top">
+          </a>            
+          <div class="card-body">
+            <div class="title">
+              <p class="title">Amazon WorkLink</p>
+              <small class="text-muted">28 Feb 2019</small>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="card mb-3 shadow-sm">
+          <a href="/posts/periodic-table-of-amazon-web-services">
+              <img src="/images/periodic-table-of-amazon-web-services_en.jpg" alt="Periodic Table of Amazon Web Services" class="card-img-top">
+          </a>            
+          <div class="card-body">
+            <div class="title">
+              <p class="title">Periodic Table of Amazon Web Services</p>
+              <small class="text-muted">19 Feb 2019</small>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="card mb-3 shadow-sm">
+          <a href="/posts/aws-transit-gateway">
+              <img src="/images/aws-transit-gateway_en.jpg" alt="AWS Transit Gateway" class="card-img-top">
+          </a>            
+          <div class="card-body">
+            <div class="title">
+              <p class="title">AWS Transit Gateway</p>
+              <small class="text-muted">11 Feb 2019</small>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="card mb-3 shadow-sm">
+          <a href="/posts/aws-elastic-beanstalk">
+              <img src="/images/aws-elastic-beanstalk_en.jpg" alt="AWS Elastic Beanstalk" class="card-img-top">
+          </a>            
+          <div class="card-body">
+            <div class="title">
+              <p class="title">AWS Elastic Beanstalk</p>
+              <small class="text-muted">07 Feb 2019</small>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="card mb-3 shadow-sm">
+          <a href="/posts/aws-appsync">
+              <img src="/images/aws-appsync_en.jpg" alt="AWS AppSync" class="card-img-top">
+          </a>            
+          <div class="card-body">
+            <div class="title">
+              <p class="title">AWS AppSync</p>
+              <small class="text-muted">29 Jan 2019</small>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="card mb-3 shadow-sm">
+          <a href="/posts/aws-backup">
+              <img src="/images/aws-backup_en.jpg" alt="AWS Backup" class="card-img-top">
+          </a>            
+          <div class="card-body">
+            <div class="title">
+              <p class="title">AWS Backup</p>
+              <small class="text-muted">18 Jan 2019</small>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="card mb-3 shadow-sm">
+          <a href="/posts/amazon-macie">
+              <img src="/images/amazon-macie_en.jpg" alt="Amazon Macie" class="card-img-top">
+          </a>            
+          <div class="card-body">
+            <div class="title">
+              <p class="title">Amazon Macie</p>
+              <small class="text-muted">15 Jan 2019</small>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="card mb-3 shadow-sm">
+          <a href="/posts/amazon-documentdb">
+              <img src="/images/amazon-documentdb_en.jpg" alt="Amazon DocumentDB" class="card-img-top">
+          </a>            
+          <div class="card-body">
+            <div class="title">
+              <p class="title">Amazon DocumentDB</p>
+              <small class="text-muted">10 Jan 2019</small>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="card mb-3 shadow-sm">
+          <a href="/posts/amazon-aurora-serverless">
+              <img src="/images/amazon-aurora-serverless_en.jpg" alt="Amazon Aurora Serverless" class="card-img-top">
+          </a>            
+          <div class="card-body">
+            <div class="title">
+              <p class="title">Amazon Aurora Serverless</p>
+              <small class="text-muted">02 Jan 2019</small>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="card mb-3 shadow-sm">
+          <a href="/posts/aws-lambda">
+              <img src="/images/aws-lambda_en.jpg" alt="AWS Lambda" class="card-img-top">
+          </a>            
+          <div class="card-body">
+            <div class="title">
+              <p class="title">AWS Lambda</p>
+              <small class="text-muted">27 Dec 2018</small>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="card mb-3 shadow-sm">
+          <a href="/posts/amazon-neptune">
+              <img src="/images/amazon-neptune_en.jpg" alt="Amazon Neptune" class="card-img-top">
+          </a>            
+          <div class="card-body">
+            <div class="title">
+              <p class="title">Amazon Neptune</p>
+              <small class="text-muted">21 Dec 2018</small>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="card mb-3 shadow-sm">
+          <a href="/posts/amazon-qldb">
+              <img src="/images/amazon-qldb_en.jpg" alt="Amazon QLDB" class="card-img-top">
+          </a>            
+          <div class="card-body">
+            <div class="title">
+              <p class="title">Amazon QLDB</p>
+              <small class="text-muted">18 Dec 2018</small>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="card mb-3 shadow-sm">
+          <a href="/posts/aws-transfer-for-sftp">
+              <img src="/images/aws-transfer-for-sftp_en.jpg" alt="AWS Transfer for SFTP" class="card-img-top">
+          </a>            
+          <div class="card-body">
+            <div class="title">
+              <p class="title">AWS Transfer for SFTP</p>
+              <small class="text-muted">05 Dec 2018</small>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="card mb-3 shadow-sm">
+          <a href="/posts/aws-reinvent-2018-dat321-amazon-dynamodb-under-the-hood-how-we-built-a-hyper-scale-database">
+              <img src="/images/aws-reinvent-2018-dat321-amazon-dynamodb-under-the-hood-how-we-built-a-hyper-scale-database_en.jpg" alt="AWS reInvent 2018 DAT321 Amazon DynamoDB Under the Hood How We Built a Hyper Scale Database" class="card-img-top">
+          </a>            
+          <div class="card-body">
+            <div class="title">
+              <p class="title">AWS reInvent 2018 DAT321 Amazon DynamoDB Under the Hood How We Built a Hyper Scale Database</p>
+              <small class="text-muted">04 Dec 2018</small>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="card mb-3 shadow-sm">
+          <a href="/posts/aws-reinvent-2018-net313-amazon-vpc-security-at-the-speed-of-light">
+              <img src="/images/aws-reinvent-2018-net313-amazon-vpc-security-at-the-speed-of-light_en.jpg" alt="AWS reInvent 2018 NET313 Amazon VPC Security at the Speed of Light" class="card-img-top">
+          </a>            
+          <div class="card-body">
+            <div class="title">
+              <p class="title">AWS reInvent 2018 NET313 Amazon VPC Security at the Speed of Light</p>
+              <small class="text-muted">03 Dec 2018</small>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="card mb-3 shadow-sm">
+          <a href="/posts/aws-reinvent-2018-evolution-of-the-ec2-host">
+              <img src="/images/aws-reinvent-2018-evolution-of-the-ec2-host_en.jpg" alt="AWS reInvent 2018 Evolution of the EC2 Host" class="card-img-top">
+          </a>            
+          <div class="card-body">
+            <div class="title">
+              <p class="title">AWS reInvent 2018 Evolution of the EC2 Host</p>
+              <small class="text-muted">01 Dec 2018</small>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="card mb-3 shadow-sm">
+          <a href="/posts/aws-reinvent-2018-cmp303-powering-next-gen-ec2-instances-deep-dive-into-the-nitro-system">
+              <img src="/images/aws-reinvent-2018-cmp303-powering-next-gen-ec2-instances-deep-dive-into-the-nitro-system_en.jpg" alt="AWS reInvent 2018 CMP303 Powering Next Gen EC2 Instances Deep Dive into the Nitro System" class="card-img-top">
+          </a>            
+          <div class="card-body">
+            <div class="title">
+              <p class="title">AWS reInvent 2018 CMP303 Powering Next Gen EC2 Instances Deep Dive into the Nitro System</p>
+              <small class="text-muted">01 Dec 2018</small>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="card mb-3 shadow-sm">
+          <a href="/posts/amazon-s3">
+              <img src="/images/amazon-s3_en.jpg" alt="Amazon S3" class="card-img-top">
+          </a>            
+          <div class="card-body">
+            <div class="title">
+              <p class="title">Amazon S3</p>
+              <small class="text-muted">28 Nov 2018</small>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="card mb-3 shadow-sm">
+          <a href="/posts/amazon-fsx-for-lustre">
+              <img src="/images/amazon-fsx-for-lustre_en.jpg" alt="Amazon FSx for Lustre" class="card-img-top">
+          </a>            
+          <div class="card-body">
+            <div class="title">
+              <p class="title">Amazon FSx for Lustre</p>
+              <small class="text-muted">28 Nov 2018</small>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="card mb-3 shadow-sm">
+          <a href="/posts/amazon-lightsail">
+              <img src="/images/amazon-lightsail_en.jpg" alt="Amazon Lightsail" class="card-img-top">
+          </a>            
+          <div class="card-body">
+            <div class="title">
+              <p class="title">Amazon Lightsail</p>
+              <small class="text-muted">12 Nov 2018</small>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="card mb-3 shadow-sm">
+          <a href="/posts/amazon-api-gateway">
+              <img src="/images/amazon-api-gateway_en.jpg" alt="Amazon API Gateway" class="card-img-top">
+          </a>            
+          <div class="card-body">
+            <div class="title">
+              <p class="title">Amazon API Gateway</p>
+              <small class="text-muted">08 Nov 2018</small>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="card mb-3 shadow-sm">
+          <a href="/posts/amazon-sagemaker">
+              <img src="/images/amazon-sagemaker_en.jpg" alt="Amazon SageMaker" class="card-img-top">
+          </a>            
+          <div class="card-body">
+            <div class="title">
+              <p class="title">Amazon SageMaker</p>
+              <small class="text-muted">06 Nov 2018</small>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="card mb-3 shadow-sm">
+          <a href="/posts/amazon-elasticache">
+              <img src="/images/amazon-elasticache_en.jpg" alt="Amazon ElastiCache" class="card-img-top">
+          </a>            
+          <div class="card-body">
+            <div class="title">
+              <p class="title">Amazon ElastiCache</p>
+              <small class="text-muted">24 Sep 2018</small>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="card mb-3 shadow-sm">
+          <a href="/posts/amazon-rds">
+              <img src="/images/amazon-rds_en.jpg" alt="Amazon RDS" class="card-img-top">
+          </a>            
+          <div class="card-body">
+            <div class="title">
+              <p class="title">Amazon RDS</p>
+              <small class="text-muted">18 Sep 2018</small>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="card mb-3 shadow-sm">
+          <a href="/posts/aws-privatelink">
+              <img src="/images/aws-privatelink_en.jpg" alt="AWS PrivateLink" class="card-img-top">
+          </a>            
+          <div class="card-body">
+            <div class="title">
+              <p class="title">AWS PrivateLink</p>
+              <small class="text-muted">06 Sep 2018</small>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="card mb-3 shadow-sm">
+          <a href="/posts/amazon-comprehend">
+              <img src="/images/amazon-comprehend_en.jpg" alt="Amazon Comprehend" class="card-img-top">
+          </a>            
+          <div class="card-body">
+            <div class="title">
+              <p class="title">Amazon Comprehend</p>
+              <small class="text-muted">04 Sep 2018</small>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="card mb-3 shadow-sm">
+          <a href="/posts/amazon-eks">
+              <img src="/images/amazon-eks_en.jpg" alt="Amazon EKS" class="card-img-top">
+          </a>            
+          <div class="card-body">
+            <div class="title">
+              <p class="title">Amazon EKS</p>
+              <small class="text-muted">01 Sep 2018</small>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="card mb-3 shadow-sm">
+          <a href="/posts/aws-storage-gateway">
+              <img src="/images/aws-storage-gateway_en.jpg" alt="AWS Storage Gateway" class="card-img-top">
+          </a>            
+          <div class="card-body">
+            <div class="title">
+              <p class="title">AWS Storage Gateway</p>
+              <small class="text-muted">13 Jul 2018</small>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="card mb-3 shadow-sm">
+          <a href="/posts/amazon-sqs">
+              <img src="/images/amazon-sqs_en.jpg" alt="Amazon SQS" class="card-img-top">
+          </a>            
+          <div class="card-body">
+            <div class="title">
+              <p class="title">Amazon SQS</p>
+              <small class="text-muted">03 Jul 2018</small>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="card mb-3 shadow-sm">
+          <a href="/posts/amazon-pinpoint">
+              <img src="/images/amazon-pinpoint_en.jpg" alt="Amazon Pinpoint" class="card-img-top">
+          </a>            
+          <div class="card-body">
+            <div class="title">
+              <p class="title">Amazon Pinpoint</p>
+              <small class="text-muted">21 Jun 2018</small>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="card mb-3 shadow-sm">
+          <a href="/posts/aws-waf">
+              <img src="/images/aws-waf_en.jpg" alt="AWS WAF" class="card-img-top">
+          </a>            
+          <div class="card-body">
+            <div class="title">
+              <p class="title">AWS WAF</p>
+              <small class="text-muted">03 Mar 2018</small>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="card mb-3 shadow-sm">
+          <a href="/posts/amazon-dynamodb">
+              <img src="/images/amazon-dynamodb_en.jpg" alt="Amazon DynamoDB" class="card-img-top">
+          </a>            
+          <div class="card-body">
+            <div class="title">
+              <p class="title">Amazon DynamoDB</p>
+              <small class="text-muted">10 Feb 2018</small>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="card mb-3 shadow-sm">
+          <a href="/posts/aws-reinvent-2017-evolution-of-the-ec2-host">
+              <img src="/images/aws-reinvent-2017-evolution-of-the-ec2-host_en.jpg" alt="AWS reInvent 2017 Evolution of the EC2 Host" class="card-img-top">
+          </a>            
+          <div class="card-body">
+            <div class="title">
+              <p class="title">AWS reInvent 2017 Evolution of the EC2 Host</p>
+              <small class="text-muted">06 Dec 2017</small>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="card mb-3 shadow-sm">
+          <a href="/posts/aws-reinvent-2017-another-day-another-billion-flows-net405">
+              <img src="/images/aws-reinvent-2017-another-day-another-billion-flows-net405_en.jpg" alt="AWS reInvent 2017 Another Day Another Billion Flows NET405" class="card-img-top">
+          </a>            
+          <div class="card-body">
+            <div class="title">
+              <p class="title">AWS reInvent 2017 Another Day Another Billion Flows NET405</p>
+              <small class="text-muted">05 Dec 2017</small>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="card mb-3 shadow-sm">
+          <a href="/posts/aws-reinvent-2017-using-aws-lambda-as-a-security-team-sid301">
+              <img src="/images/aws-reinvent-2017-using-aws-lambda-as-a-security-team-sid301_en.jpg" alt="AWS reInvent 2017 Using AWS Lambda as a Security Team SID301" class="card-img-top">
+          </a>            
+          <div class="card-body">
+            <div class="title">
+              <p class="title">AWS reInvent 2017 Using AWS Lambda as a Security Team SID301</p>
+              <small class="text-muted">01 Dec 2017</small>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="card mb-3 shadow-sm">
+          <a href="/posts/aws-reinvent-2017-force-multiple-your-security-team-with-automation-and-alexa-sid302">
+              <img src="/images/aws-reinvent-2017-force-multiple-your-security-team-with-automation-and-alexa-sid302_en.jpg" alt="AWS reInvent 2017 Force Multiple Your Security Team with Automation and Alexa SID302" class="card-img-top">
+          </a>            
+          <div class="card-body">
+            <div class="title">
+              <p class="title">AWS reInvent 2017 Force Multiple Your Security Team with Automation and Alexa SID302</p>
+              <small class="text-muted">01 Dec 2017</small>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="card mb-3 shadow-sm">
+          <a href="/posts/aws-reinvent-2017-deep-dive-into-amazon-fargate-con333">
+              <img src="/images/aws-reinvent-2017-deep-dive-into-amazon-fargate-con333_en.jpg" alt="AWS reInvent 2017 Deep Dive into Amazon Fargate CON333" class="card-img-top">
+          </a>            
+          <div class="card-body">
+            <div class="title">
+              <p class="title">AWS reInvent 2017 Deep Dive into Amazon Fargate CON333</p>
+              <small class="text-muted">01 Dec 2017</small>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="card mb-3 shadow-sm">
+          <a href="/posts/aws-reinvent-2017-container-networking-deep-dive-with-amazon-ecs-con401">
+              <img src="/images/aws-reinvent-2017-container-networking-deep-dive-with-amazon-ecs-con401_en.jpg" alt="AWS reInvent 2017 Container Networking Deep Dive with Amazon ECS CON401" class="card-img-top">
+          </a>            
+          <div class="card-body">
+            <div class="title">
+              <p class="title">AWS reInvent 2017 Container Networking Deep Dive with Amazon ECS CON401</p>
+              <small class="text-muted">01 Dec 2017</small>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="card mb-3 shadow-sm">
+          <a href="/posts/aws-reinvent-2017-big-data-architectural-patterns-and-best-practices-on-aws-abd201">
+              <img src="/images/aws-reinvent-2017-big-data-architectural-patterns-and-best-practices-on-aws-abd201_en.jpg" alt="AWS reInvent 2017 Big Data Architectural Patterns and Best Practices on AWS ABD201" class="card-img-top">
+          </a>            
+          <div class="card-body">
+            <div class="title">
+              <p class="title">AWS reInvent 2017 Big Data Architectural Patterns and Best Practices on AWS ABD201</p>
+              <small class="text-muted">01 Dec 2017</small>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="card mb-3 shadow-sm">
+          <a href="/posts/aws-reinvent-2017-aws-privatelink-deep-dive-net310">
+              <img src="/images/aws-reinvent-2017-aws-privatelink-deep-dive-net310_en.jpg" alt="AWS reInvent 2017 AWS PrivateLink Deep Dive NET310" class="card-img-top">
+          </a>            
+          <div class="card-body">
+            <div class="title">
+              <p class="title">AWS reInvent 2017 AWS PrivateLink Deep Dive NET310</p>
+              <small class="text-muted">01 Dec 2017</small>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="card mb-3 shadow-sm">
+          <a href="/posts/aws-reinvent-2017-automating-ddos-response-in-the-cloud-sid324">
+              <img src="/images/aws-reinvent-2017-automating-ddos-response-in-the-cloud-sid324_en.jpg" alt="AWS reInvent 2017 Automating DDoS Response in the Cloud SID324" class="card-img-top">
+          </a>            
+          <div class="card-body">
+            <div class="title">
+              <p class="title">AWS reInvent 2017 Automating DDoS Response in the Cloud SID324</p>
+              <small class="text-muted">01 Dec 2017</small>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="card mb-3 shadow-sm">
+          <a href="/posts/amazon-ec2-spot-instances">
+              <img src="/images/amazon-ec2-spot-instances_en.jpg" alt="Amazon EC2 Spot Instances" class="card-img-top">
+          </a>            
+          <div class="card-body">
+            <div class="title">
+              <p class="title">Amazon EC2 Spot Instances</p>
+              <small class="text-muted">29 Nov 2017</small>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="card mb-3 shadow-sm">
+          <a href="/posts/amazon-ecs">
+              <img src="/images/amazon-ecs_en.jpg" alt="Amazon ECS" class="card-img-top">
+          </a>            
+          <div class="card-body">
+            <div class="title">
+              <p class="title">Amazon ECS</p>
+              <small class="text-muted">22 Nov 2017</small>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="card mb-3 shadow-sm">
+          <a href="/posts/aws-alb">
+              <img src="/images/aws-alb_en.jpg" alt="AWS ALB" class="card-img-top">
+          </a>            
+          <div class="card-body">
+            <div class="title">
+              <p class="title">AWS ALB</p>
+              <small class="text-muted">08 Nov 2017</small>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="card mb-3 shadow-sm">
+          <a href="/posts/amazon-athena">
+              <img src="/images/amazon-athena_en.jpg" alt="Amazon Athena" class="card-img-top">
+          </a>            
+          <div class="card-body">
+            <div class="title">
+              <p class="title">Amazon Athena</p>
+              <small class="text-muted">10 Oct 2017</small>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="card mb-3 shadow-sm">
+          <a href="/posts/zen-of-cloud-optimization">
+              <img src="/images/zen-of-cloud-optimization_en.jpg" alt="Zen of Cloud Optimization" class="card-img-top">
+          </a>            
+          <div class="card-body">
+            <div class="title">
+              <p class="title">Zen of Cloud Optimization</p>
+              <small class="text-muted">28 Sep 2017</small>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="card mb-3 shadow-sm">
+          <a href="/posts/amazon-machine-learning">
+              <img src="/images/amazon-machine-learning_en.jpg" alt="Amazon Machine Learning" class="card-img-top">
+          </a>            
+          <div class="card-body">
+            <div class="title">
+              <p class="title">Amazon Machine Learning</p>
+              <small class="text-muted">22 Sep 2017</small>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="card mb-3 shadow-sm">
+          <a href="/posts/aws-well-architected-framework">
+              <img src="/images/aws-well-architected-framework_en.jpg" alt="AWS Well Architected Framework" class="card-img-top">
+          </a>            
+          <div class="card-body">
+            <div class="title">
+              <p class="title">AWS Well Architected Framework</p>
+              <small class="text-muted">21 Sep 2017</small>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+  </div>
+</div>
+
+			
+		</main>
+
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+		
+	</body>
+
+</html>
