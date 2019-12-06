@@ -2,7 +2,7 @@ name: "Jerry Hargrove - Cloud Diagrams & Notes"
 twitter: awsgeek
 markdown: kramdown
 permalink: /posts/:title/index.html
-url: https://www.awsgeek.com
+url: http://www.awsgeek.com.s3-website-us-west-2.amazonaws.com
 analytics: UA-106486526-1
 
 plugins:
