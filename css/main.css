@@ -24,14 +24,6 @@ p.title {
   padding: 0.5rem;
 }
 
-a.icon {
-  color: #212529;
-}
-
-a.icon:hover {
-  color: grey;
-}
-
 .icons {
   position: absolute;
   bottom: -.35rem;

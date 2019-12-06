@@ -4,6 +4,7 @@ markdown: kramdown
 permalink: /posts/:title/index.html
 url: https://www.awsgeek.com
 analytics: UA-106486526-1
+image : images/AWS-reInvent-2019-Keynote-Werner-Vogels_en.jpg
 
 plugins:
   - jekyll-sitemap
