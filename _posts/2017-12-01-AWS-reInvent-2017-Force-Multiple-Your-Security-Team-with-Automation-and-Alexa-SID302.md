@@ -1,6 +1,8 @@
 ---
 layout : note
-title : "AWS reInvent 2017 Force Multiple Your Security Team with Automation and Alexa SID302"
+event: "AWS re:Invent 2017"
+session: SID302
+title : "Force Multiple Your Security Team with Automation and Alexa"
 author : awsgeek
 published : true
 date : 2017-12-01

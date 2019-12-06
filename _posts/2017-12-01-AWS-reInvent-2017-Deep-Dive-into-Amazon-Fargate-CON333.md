@@ -1,6 +1,8 @@
 ---
 layout : note
-title : "AWS reInvent 2017 Deep Dive into Amazon Fargate CON333"
+event: "AWS re:Invent 2017"
+session: CON333
+title : "Deep Dive into Amazon Fargate"
 author : awsgeek
 published : true
 date : 2017-12-01

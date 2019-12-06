@@ -1,6 +1,8 @@
 ---
 layout : note
-title : "AWS reInvent 2017 AWS PrivateLink Deep Dive NET310"
+event: "AWS re:Invent 2017"
+session: NET310
+title : "AWS PrivateLink Deep Dive"
 author : awsgeek
 published : true
 date : 2017-12-01

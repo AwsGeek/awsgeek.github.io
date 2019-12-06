@@ -1,6 +1,8 @@
 ---
 layout : note
-title : "AWS reInvent 2017 Container Networking Deep Dive with Amazon ECS CON401"
+event: "AWS re:Invent 2017"
+session: CON401
+title : "Container Networking Deep Dive with Amazon ECS"
 author : awsgeek
 published : true
 date : 2017-12-01

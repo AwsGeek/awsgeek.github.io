@@ -1,6 +1,8 @@
 ---
 layout : note
-title : "AWS reInvent 2017 Automating DDoS Response in the Cloud SID324"
+event: "AWS re:Invent 2017"
+session: SID324
+title : "Automating DDoS Response in the Cloud"
 author : awsgeek
 published : true
 date : 2017-12-01

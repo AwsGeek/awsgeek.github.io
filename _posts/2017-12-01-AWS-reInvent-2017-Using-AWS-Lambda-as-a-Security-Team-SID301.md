@@ -1,6 +1,8 @@
 ---
 layout : note
-title : "AWS reInvent 2017 Using AWS Lambda as a Security Team SID301"
+event: "AWS re:Invent 2017"
+session: SID301
+title : "Using AWS Lambda as a Security Team"
 author : awsgeek
 published : true
 date : 2017-12-01

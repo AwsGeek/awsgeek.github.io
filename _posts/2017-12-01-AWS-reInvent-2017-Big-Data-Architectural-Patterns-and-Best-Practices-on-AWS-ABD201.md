@@ -1,6 +1,8 @@
 ---
 layout : note
-title : "AWS reInvent 2017 Big Data Architectural Patterns and Best Practices on AWS ABD201"
+event: "AWS re:Invent 2017"
+session: ABD201
+title : "Big Data Architectural Patterns and Best Practices on AWS"
 author : awsgeek
 published : true
 date : 2017-12-01
