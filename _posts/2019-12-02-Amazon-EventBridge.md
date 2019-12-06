@@ -3,7 +3,7 @@ layout : diagram
 title : "Amazon EventBridge"
 author : awsgeek
 published : true
-date : 2019-07-17
+date : 2019-12-02
 image : images/Amazon-EventBridge_en.jpg
 thumbnail : images/Amazon-EventBridge-thumbnail_en.jpg
 tags : [CloudComputing,Serverless]
