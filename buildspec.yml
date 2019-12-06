@@ -5,7 +5,7 @@ phases:
     runtime-versions:
       ruby: 2.6
     commands:
-      - gem install jekyll jekyll-paginate jekyll-sitemap jekyll-gist jekyll-seo-tag jekyll-feed
+      - gem install jekyll jekyll-sitemap jekyll-seo-tag jekyll-feed
       
   build:
     commands:
