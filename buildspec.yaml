@@ -1,0 +1,15 @@
+version: 0.1
+   
+phases:
+  install:
+    commands:
+      - gem install jekyll jekyll-paginate jekyll-sitemap jekyll-gist jekyll-seo-tag jeykyll-feed
+      
+  build:
+    commands:
+      - jekyll build
+
+artifacts:
+  base-directory: _site
+  files:
+    - '**/*'
