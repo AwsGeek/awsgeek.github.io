@@ -24,9 +24,11 @@ layout: default
                     <p class="title">{{post.event}}</p>
                     <p><small class="text-muted">{{post.date | date_to_string}}</small></p>
                 </div>
-                {% if post.video %}
-                <a class="icon" href="//{{post.video}}" target="_blank" onclick="trackOutboundLink('{{post.video}}'); return false;"><i class="material-icons md-24">videocam</i></a>
-                {% endif %}    
+                <div class="icons">
+                        {% if post.video %}
+                        <a class="icon" href="//{{post.video}}" target="_blank" onclick="trackOutboundLink('{{post.video}}'); return false;"><i class="material-icons md-24">videocam</i></a>
+                        {% endif %}    
+                </div>                  
             </div>
         </div>
         </div>

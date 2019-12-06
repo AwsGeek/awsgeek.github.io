@@ -21,19 +21,12 @@
                     <img class="img-fluid" src="{{page.image | relative_url}}" alt="{{page.title}}" class="card-img-top">
                 </a>            
                 <div class="card-body">
+
                   <div class="title">
                     <p class="title">{{page.title}}</p>
                     <small class="text-muted">{{page.date | date_to_string}}</small>
                     <small class="text-muted">{% if page.author %} by <a href="//twitter.com/{{page.author}}">@{{page.author}}</a>{% endif %}</small>
                   </div>
-		  
-                  {% if product.page %}
-                  <a class="icon" href="//{{page.product}}" target="_blank" onclick="trackOutboundLink('{{page.product}}'); return false;"><i class="material-icons md-24">web</i></a>
-                  {% endif %}
-			
-                  {% if page.video %}
-                  <a class="icon" href="//{{page.video}}" target="_blank" onclick="trackOutboundLink('{{page.video}}'); return false;"><i class="material-icons md-24">videocam</i></a>
-                  {% endif %}
                 </div>
               </div>
             </div>

@@ -31,3 +31,9 @@ a.icon {
 a.icon:hover {
   color: grey;
 }
+
+.icons {
+  position: absolute;
+  bottom: -.35rem;
+  font-size: 2.5em;
+}
