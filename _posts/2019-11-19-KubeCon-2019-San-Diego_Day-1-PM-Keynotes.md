@@ -1,7 +1,6 @@
 ---
 layout : note
 event: "KubeCon 2019 - San Diego"
-session: Keynotes
 title : "Day 1 Keynotes (PM)"
 author : awsgeek
 published : true

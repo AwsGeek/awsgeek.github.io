@@ -1,7 +1,6 @@
 ---
 layout : note
 event: "KubeCon 2019 - San Diego"
-session: Day
 title : "AWS Container Day"
 author : awsgeek
 published : true
