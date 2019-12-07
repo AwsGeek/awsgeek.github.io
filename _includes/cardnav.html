@@ -1,0 +1,32 @@
+<div class="row d-flex justify-content-center">
+            
+        <div class="col-lg-1 align-self-center">
+            {% if page.previous.url %}
+              <a class="icon" href="{{page.previous.url | relative_url}}"><i class="material-icons md-48 green">arrow_back_ios</i></a>   
+            {% else %}           
+              <i class="material-icons md-48 green">arrow_back_ios</i>
+            {% endif %}           
+        </div>
+        <div class="col-lg-10 align-self-center">
+          <div class="card mb-10 shadow-sm">
+            <a href="{{page.image | relative_url}}">
+                <img class="img-fluid" src="{{page.image | relative_url}}" alt="{{page.title}}" class="card-img-top">
+            </a>            
+            <div class="card-body">
+
+              <div class="title">
+                <p class="title">{{page.title}}</p>
+                <small class="text-muted">{{page.date | date_to_string}}</small>
+                <small class="text-muted">{% if page.author %} by <a href="//twitter.com/{{page.author}}">@{{page.author}}</a>{% endif %}</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-1 align-self-center">
+          {% if page.next.url %}
+            <a class="icon" href="{{page.next.url | relative_url}}" ><i class="material-icons md-48 green">arrow_forward_ios</i></a>   
+          {% else %}           
+            <i class="material-icons md-48 green">arrow_next_ios</i>
+          {% endif %}           
+        </div>
+</div>

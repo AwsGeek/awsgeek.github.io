@@ -6,6 +6,8 @@ url: https://www.awsgeek.com
 analytics: UA-106486526-1
 image : images/AWS-reInvent-2019-Keynote-Werner-Vogels_en.jpg
 
+lsi: true
+
 plugins:
   - jekyll-sitemap
   - jekyll-feed  
