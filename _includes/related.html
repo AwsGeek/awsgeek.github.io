@@ -1,4 +1,4 @@
-{% assign maxRelated = 4 %}
+{% assign maxRelated = 3 %}
 {% assign minCommonTags =  3 %}
 {% assign maxRelatedCounter = 0 %}
 
@@ -23,7 +23,7 @@
         <!-- Side Widget -->
         <div class="card my-3 text-center">
         <div class="card-body">
-            <a href="{{post.url | relative_url }}"><img class="img-fluid" src="{{post.thumbnail | relative_url}}" alt="{{post.title}}"></a>
+            <a href="{{post.url | relative_url }}"><img class="img-fluid" src="{{post.thumbnail | relative_url}}" alt="{{post.title}}">*</a>
         </div>
         </div>
     </div>
