@@ -31,10 +31,10 @@ p.title {
 }
 
 .card.event {
-  box-shadow: 0 .125rem .25rem rgba(255,165,0,.7)!important;
+  box-shadow: 0 .125rem .25rem rgba(0,0,0,.7)!important;
 }
 .card {
-  box-shadow: 0 .125rem .25rem rgba(0,0,0,.2)!important;
+  box-shadow: 0 .125rem .25rem rgba(0,0,0,.075)!important;
 }
 
 .material-icons.red { color: red; }
