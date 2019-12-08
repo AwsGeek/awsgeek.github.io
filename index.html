@@ -9,7 +9,7 @@ title: "Cloud Diagrams & Notes"
     <div class="row">
 
 {% for post in site.posts %}
-      {% if post.layout != "event" %}
+      {% if post.layout != "note" %}
       
       <div class="col-md-3">
         <div class="card mb-3 shadow-sm">
@@ -21,7 +21,9 @@ title: "Cloud Diagrams & Notes"
               <p class="title">{{post.title}}</p>
               <small class="text-muted">{{post.date | date_to_string}}</small>
             </div>
+            
             <div class="icons">
+              
             {% if post.layout == "event" %}
             <a href="{{ post.url  | relative_url}}"><i class="material-icons md-36 green">people</i></a>
             {% endif %}
