@@ -12,7 +12,7 @@ title: "Cloud Diagrams & Notes"
       {% if post.layout != "note" %}
       
       <div class="col-md-3">
-        <div class="card mb-3 shadow-sm">
+        <div class="card mb-3 {{post.layout}} bg">
           <a href="{{ post.url  | relative_url}}">
               <img src="{{post.thumbnail | relative_url}}" alt="{{post.title}}" class="card-img-top">
           </a>            
